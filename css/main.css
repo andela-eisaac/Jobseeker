@@ -56,20 +56,11 @@ HEADER
 ****************************/
 
 .header {
-  width: 99.5%;
-  height: 33.833%;
-  background: url('img/jobseeker2.jpg') no-repeat;
+  width: 100%;
+  height: 373px;
+  background: url('../img/jobseeker2.jpg') no-repeat;
   background-size: 100%;
 }
-
-.nav-bar {
-  width: 100%;
-  height: 20px;
-  background: hsl(0, 0%, 88%);
-  margin-bottom: 72px;
-  opacity: .6;
-}
-
 
 .logo {
   width: 120px;
@@ -77,80 +68,95 @@ HEADER
   padding: 10px 50px;
 }
 
-.header nav {
+.nav-bar {
+  width: 100%;
+  height: 30px;
+  background: hsl(0, 0%, 88%);
+  opacity: .7;
+}
+
+.nav-bar nav {
   float: right;
   margin-right: 50px;
-  font-size: .75em;
   margin-top: 5px;
 }
 
-.header nav a {
-  text-decoration: none;
-  color: #000;
-  margin-right: 10px;
+.nav-bar a {
   font-family: Montserrat;
-  font-weight: 400;
-}
-
-
-.header p {
-  margin-bottom: 15px;
-  padding-left: 30px;
-  margin-left: 50px;
-}
-
-.post {
-  font-family: Raleway;
+  font-size: .75em;
   text-decoration: none;
-  border: thin solid hsl(120, 75%, 38%);
-  color: white;
-  background: hsl(120, 75%, 38%);
-  margin-left: 110px;
+  padding-right: 20px;
+  padding-top: 5px;
+  color: black;
+}
+
+
+
+.post-job {
+  width: 100%;
+  height: 200px;
+  margin-top: 60px;
+}
+
+h1 {
+  margin-left: 100px;
+  font-family: Montserrat;
+  font-size: 2em;
+  color: hsl(0, 0%, 13%);
+  margin-bottom: 20px;
+}
+
+.post-job p {
+  margin-left: 100px;
+  font-family: Raleway;
+  font-size: .75em;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.post-job a {
+  margin-left: 100px;
+  text-decoration: none;
+  font-family: Raleway;
+  border: thin solid green;
+  background: green;
+  font-size: 1em;
+  color: #fff;
   padding: 5px 20px;
 }
 
 .info-bar {
-  width: 99.9%;
-  height: 70px;
-  background: #000;
-  color: #fff;
-  margin: 35px auto 0;
   text-align: center;
+  height: 80px;
+  background: black;
   opacity: .6;
+  color: white;
+  margin-top: 4px;
+}
+
+h2 {
+  font-family: Raleway;
+  font-size: 1.5em;
+  font-weight: thin;
+  font-color: white;
+  padding-top: 15px;
+  word-spacing: 15px;
 }
 
 .info-bar p {
-  color: white;
-  font-family: Raleway;
-  font-weight: thin;
-}
-
-.top {
-  font-family: Raleway;
-  font-size: 1.3em;
-  word-spacing: 2px;
-  font-weight: thin;
-  word-spacing: 5px;
-  margin-bottom: 5px;
-  padding-top: 20px;
-
-
-}
-
-.bottom {
-  font-size: .6em;
   position: relative;
-  bottom: 3px;
-  word-spacing: 5px
-
+  bottom: 5px;
+  font-family: Raleway;
+  font-weight: thin;
+  font-size: .75em;
 }
 
-.bottom span {
+.info-bar p span {
   font-size: 2em;
   font-weight: bold;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-
-
 
 /****************************
 SECTION
@@ -163,19 +169,21 @@ HOW IT WORKS
 ****************************/
 .how-it-works {
   width: 100%;
-  height: 21.266%;
+  height: 200px;
   background: #fff;
-  margin: 0 auto;
+  margin: 50px auto;
   text-align: center;
+  margin-top: 0;
 }
 
-h2 {
+h3 {
   margin-top: 50px;
   margin-bottom: 20px;
   font-size: 2em;
   font-family: Montserrat;
   font-weight: 400;
   color: gray;
+  text-align: center;
 
 }
 
@@ -205,14 +213,14 @@ LOOKING FOR A JOB
 
 .looking-for-a-job {
   width: 100%;
-  height: 200px;
-  background: url('img/back.jpg');
+  height: 250px;
+  background: url('../img/back.jpg');
   margin: 0 auto;
   text-align: center;
   opacity: .7;
 }
 
-h3 {
+h4 {
   font-family: Raleway;
   font-size: 1.5em;
   margin: 20px auto;
@@ -231,14 +239,13 @@ h3 {
 .looking-for-a-job a {
   text-decoration: none;
   color: #fff;
-  border: thin solid;
   border-color: hsl(120, 75%, 38%);
   background: hsl(120, 75%, 38%);
-  padding: 8px 23px;
+  padding: 8px 25px;
   position: relative;
   bottom: 5px;
   font-family: Raleway;
-  font-size: .75em;
+  font-size: 1em;
 }
 
 
@@ -256,7 +263,7 @@ OUR PARTNERS
 }
 
 
-h4 {
+h5 {
   font-family: Raleway;
   font-size: 1.5em;
   font-weight: 300;
@@ -268,7 +275,6 @@ h4 {
 
 .our-partners li {
   display: inline-block;
-  border: thin solid;
   margin: auto 20px;
   padding: 20px 70px;
   border-color: hsl(0, 0%, 88%);
@@ -309,24 +315,6 @@ FOOTER
 HEADER POSITIOINING
 ****************************/
 
-h1 {
-  font-family: Arimo;
-  font-size: 2em;
-  font-color: hsl(0, 0%, 13%);
-  margin-left: 100px;
-  padding-left: 10px;
-}
-
-.description {
-  font-family: Raleway;
-  font-size: .65em;
-  margin-bottom: 15px;
-  padding-left: 10px;
-  margin-left: 100px;
-  padding-top: 10px;
-  line-height: 20px;
-}
-
 
 /****************************
 HOVER EFFECT
@@ -336,6 +324,10 @@ a:hover {
   text-decoration: underline;
 }
 
+
+/*.info-bar {
+  text-align: center;
+}*/
 
 
 
