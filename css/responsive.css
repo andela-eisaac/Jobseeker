@@ -1,0 +1,195 @@
+@import url(main.css) all and (min-width: 970px) {}
+
+/**********BEGINS FIRST MEDIA QUERY***********/
+
+@media screen and (max-width: 600px) {
+	.header {
+		height: 225px;
+	}
+
+	.logo {
+		height: 30px;
+		width: 50px;
+	}
+
+	.nav-bar {
+		max-width: 600px;
+		height: 30px;
+	}
+
+	.nav-bar nav {
+		margin-right: 10px;
+	}
+
+	.nav-bar a {
+		font-size: 0.5em;
+	}
+
+	.post-job {
+		max-width: 480px;
+		height: 120px;
+		margin-top: 20px;
+	}
+
+	h1 {
+		font-size: 1em;
+		margin-left: 70px;
+		margin-bottom: 5px;
+		color: hsl(0, 0%, 88%);
+	}
+
+	.post-job p {
+		font-size: .75em;
+		margin-left: 70px;
+		line-height: 15px;
+		margin-bottom: 10px;
+		color: hsl(0, 0%, 88%);
+	}
+
+	.post-job a {
+		margin-left: 70px;
+		font-size: .7em;
+		padding: 2px 10px;
+	}
+
+	.info-bar {
+		height: 40px;
+		background: black;
+		margin-top: 15px;
+	}
+
+	h2 {
+		font-size: .75em;
+		word-spacing: 10px;
+		padding-top: 5px;
+	}
+
+	.info-bar p {
+		font-size: .5em;
+	}
+
+	.how-it-works {
+		max-width: 600px;
+		height: 170px;
+	}
+
+	h3 {
+		margin-top: 30px;
+		margin-bottom: 40px;
+		font-size: 1em;
+	}
+
+	.how-it-works li {
+		padding: auto 0;
+		margin: auto 0;
+	}
+
+	.how-it-works img {
+		width: 30px;
+		height: 30px;
+	}
+
+	.how-it-works a {
+		font-size: .5em;
+	}
+
+	.arrow {
+		padding: auto 10px;
+		width: 5px;
+		height: 5px;
+		position: relative;
+		top:-15px;
+	}
+
+	
+	.our-partners {
+		max-width: 600px;
+	}
+
+	.our-partners li {
+		margin: auto 0;
+		padding: 20px 20px;
+	}
+
+	.footer {
+		max-width: 600px;
+		margin-left: 0;
+	}
+
+	.footer li {
+		padding-left: 0px;
+	}
+
+	.footer a {
+		padding-left: 0;
+		font-size: .5em;
+	}
+
+
+} /**********ENDS FIRST MEDIA QUERY***********/
+
+
+/**********BEGINS SECOND MEDIA QUERY***********/
+
+@media screen and (min-width: 601px) and (max-width: 969px) {
+
+	.header {
+		max-width: 969px;
+		height: 400px;
+		border: thick solid;
+	}
+
+	h1 {
+		font-size: 1.5em;
+		margin-bottom: .2em;
+		color: lightgray;
+	}
+
+	.post-job p {
+		font-size: .85em;
+		line-height: 1.5em;
+		color: lightgray;
+		margin-bottom: 1.5em;
+	}
+
+	.post-job a {
+		font-size: 1em;
+	}
+
+	.info-bar {
+		margin-top: 30px;
+	}
+
+	.how-it-works {
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+	.how-it-works li {
+		padding: auto 0;
+		margin: auto 0;
+	}
+
+	.arrow {
+		padding: auto 0;
+	}
+
+	.looking-for-a-job {
+		max-width: 969px;
+	}
+
+	.our-partners {
+		max-width: 969px;
+	}
+
+	.our-partners li {
+		padding: 20px 40px;
+		margin: auto 10px;
+		border: thin solid;
+		border-color: hsl(0, 0%, 88%);
+	}
+
+	.footer {
+		max-width: 969px;
+	}
+}  /**********ENDS SECOND MEDIA QUERY***********/
