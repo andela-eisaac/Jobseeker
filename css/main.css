@@ -160,6 +160,8 @@ h2 {
   padding-right: 5px;
 }
 
+
+
 /****************************
 SECTION
 ****************************/
@@ -312,26 +314,3 @@ FOOTER
   top: 30px;
   padding-bottom: 10px;
 }
-
-
-/****************************
-HEADER POSITIOINING
-****************************/
-
-
-/****************************
-HOVER EFFECT
-****************************/
-
-a:hover {
-  text-decoration: underline;
-}
-
-
-/*.info-bar {
-  text-align: center;
-}*/
-
-
-
-
