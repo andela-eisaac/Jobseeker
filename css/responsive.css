@@ -1,6 +1,6 @@
 @import url(main.css) all and (min-width: 970px) {}
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
 	.header {
 		height: 225px;
 	}
@@ -11,7 +11,7 @@
 	}
 
 	.nav-bar {
-		max-width: 480px;
+		max-width: 600px;
 		height: 30px;
 	}
 
@@ -65,61 +65,42 @@
 	}
 
 	.how-it-works {
-		max-width: 480px;
+		max-width: 600px;
 		height: 170px;
 	}
 
 	h3 {
-		margin-top: 5px;
-		margin-bottom: 5px;
+		margin-top: 30px;
+		margin-bottom: 40px;
 		font-size: 1em;
 	}
 
 	.how-it-works li {
-		margin-left: 5px;
-		margin-right: 5px;
-		width: 20px;
-		height: 20px;
-		padding-left: 5px;
-		padding-right: 5px;
+		padding: auto 0;
+		margin: auto 0;
+	}
+
+	.how-it-works img {
+		width: 30px;
+		height: 30px;
 	}
 
 	.how-it-works a {
-		font-size: .7em;
-
-	}
-
-	.pen {
-  		position: relative;
-  		top: 20px;
-	}
-
-	.checklist {
- 		position: relative;
-  		bottom: 14px;
-	}
-
-	.magnify {
- 		position: relative;
-  		bottom: 5px;
-	}
-
-	.phone {
- 		position: relative;
-  		bottom: 10px;
+		font-size: .5em;
 	}
 
 	.arrow {
+		padding: auto 10px;
+		width: 5px;
+		height: 5px;
 		position: relative;
-		bottom: 60px;
-		width: 30px;
-		height: 20px;
-		padding-right: 5px;
-		padding-left: 13px;
+		top:-15px;
 	}
 
+	
+
 	.our-partners {
-		max-width: 480px;
+		max-width: 600px;
 	}
 
 	.our-partners li {
@@ -128,7 +109,7 @@
 	}
 
 	.footer {
-		max-width: 480px;
+		max-width: 600px;
 		margin-left: 0;
 	}
 
@@ -142,4 +123,67 @@
 	}
 
 
+}
+
+@media screen and (min-width: 601px) and (max-width: 969px) {
+
+	.header {
+		max-width: 969px;
+		height: 400px;
+		border: thick solid;
+	}
+
+	h1 {
+		font-size: 1.5em;
+		margin-bottom: .2em;
+		color: lightgray;
+	}
+
+	.post-job p {
+		font-size: .85em;
+		line-height: 1.5em;
+		color: lightgray;
+		margin-bottom: 1.5em;
+	}
+
+	.post-job a {
+		font-size: 1em;
+	}
+
+	.info-bar {
+		margin-top: 30px;
+	}
+
+	.how-it-works {
+		margin-right: 5px;
+		margin-left: 5px;
+	}
+
+	.how-it-works li {
+		padding: auto 0;
+		margin: auto 0;
+	}
+
+	.arrow {
+		padding: auto 0;
+	}
+
+	.looking-for-a-job {
+		max-width: 969px;
+	}
+
+	.our-partners {
+		max-width: 969px;
+	}
+
+	.our-partners li {
+		padding: 20px 40px;
+		margin: auto 10px;
+		border: thin solid;
+		border-color: hsl(0, 0%, 88%);
+	}
+
+	.footer {
+		max-width: 969px;
+	}
 }
